@@ -155,8 +155,8 @@
     <p>Estamos preparando um portal e uma loja completa para você evoluir e conquistar seu espaço no servidor. Enquanto finalizamos tudo, já pode entrar para jogar!</p>
 
     <div class="actions">
-      <button class="btn btn-ip" id="copyBtn" onclick="copiarIP()">Copiar IP: zyriummc.com</button>
-      <a href="https://discord.gg/SEU_CONVITE" target="_blank" class="btn btn-discord">Entrar no Discord</a>
+      <button class="btn btn-ip" id="copyBtn" onclick="copiarIP()">Copiar IP: zyriummc.bed.net.br</button>
+      <a href="https://discord.gg/zyriummc" target="_blank" class="btn btn-discord">Entrar no Discord</a>
     </div>
 
     <div class="loader-bar">
@@ -171,13 +171,13 @@
 
   <script>
     function copiarIP() {
-      const ip = "zyriummc.com";
+      const ip = "zyriummc.bed.net.br";
       navigator.clipboard.writeText(ip).then(() => {
         const btn = document.getElementById("copyBtn");
         btn.innerText = "✔ IP Copiado!";
         btn.style.background = "#00ff88";
         setTimeout(() => {
-          btn.innerText = "Copiar IP: zyriummc.com";
+          btn.innerText = "Copiar IP: zyriummc.bed.net.br";
           btn.style.background = "linear-gradient(135deg, #00d2ff, #008b8b)";
         }, 2500);
       });
